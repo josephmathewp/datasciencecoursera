@@ -1,4 +1,4 @@
-#Codebook for the Getting and Cleaning Data Project
+# Codebook for the Getting and Cleaning Data Project
 The run_analysis.R code will read the 'Human Activity Recognition Using Smartphones Data Set' avaliable at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 It will
@@ -88,8 +88,8 @@ $ activities               : chr  "laying" "sitting" "standing" "walking" ...
  $ fbodybodygyrojerkmag-mean: num  -0.942 -0.99 -0.995 -0.319 -0.282 ...
  $ fbodybodygyrojerkmag-std : num  -0.933 -0.987 -0.995 -0.382 -0.392 ...
 
-Sample data from tidy dataset
-## head(data.tidy)
+## Sample data from tidy dataset
+### head(data.tidy)
           activities subject tbodyacc-mean-x tbodyacc-mean-y tbodyacc-mean-z tbodyacc-std-x tbodyacc-std-y
 1             laying       1       0.2215982    -0.040513953      -0.1132036    -0.92805647   -0.836827406
 2            sitting       1       0.2612376    -0.001308288      -0.1045442    -0.97722901   -0.922618642
