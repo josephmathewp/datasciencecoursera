@@ -18,13 +18,13 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### Steps performed to clean the data
--get the data to analyse
--read the test and training data and rowbind it to merge it
--Read the subject data
--Read the activity data
--Extract only the mean and s.d for each measurement
--Give descriptive names for all the columns
--Give proper names to every activity
--Add proper column names
--Generate UCI_CleanData.txt which contains the full data in a better organized way
--Creating a final tidy dataset with average of the variables for each activity and for every subject
+- get the data to analyse
+- read the test and training data and rowbind it to merge it
+- Read the subject data
+- Read the activity data
+- Extract only the mean and s.d for each measurement
+- Give descriptive names for all the columns
+- Give proper names to every activity
+- Add proper column names
+- Generate UCI_CleanData.txt which contains the full data in a better organized way
+- Creating a final tidy dataset with average of the variables for each activity and for every subject
