@@ -96,9 +96,9 @@ Tidy dataset have 180 rows and 68 columns
            standing       1       0.2789176    -0.016137590      -0.1106018    -0.99575990   -0.973190056
             walking       1       0.2773308    -0.017383819      -0.1111481    -0.28374026    0.114461337
  walking_downstairs       1       0.2891883    -0.009918505      -0.1075662     0.03003534   -0.031935943
-   walking_upstairs       1       0.2554617    -0.023953149      -0.0973020    -0.35470803   -0.002320265
+    walking_upstairs       1       0.2554617    -0.023953149      -0.0973020    -0.35470803   -0.002320265
 
- tbodyacc-std-z : tgravityacc-mean-x : tgravityacc-mean-y : tgravityacc-mean-z : tgravityacc-std-x : tgravityacc-std-y :
+ tbodyacc-std-z  tgravityacc-mean-x  tgravityacc-mean-y  tgravityacc-mean-z  tgravityacc-std-x  tgravityacc-std-y 
     -0.82606140         -0.2488818          0.7055498         0.44581772        -0.8968300        -0.9077200
     -0.93958629          0.8315099          0.2044116         0.33204370        -0.9684571        -0.9355171
     -0.97977588          0.9429520         -0.2729838         0.01349058        -0.9937630        -0.9812260
@@ -113,6 +113,7 @@ Tidy dataset have 180 rows and 68 columns
         -0.9477172          0.07404163        0.0282721096        -0.004168406        -0.11361560
         -0.8959397          0.05415532        0.0296504490        -0.010971973        -0.01228386
         -0.9123794          0.10137273        0.0194863076        -0.045562545        -0.44684389
+		
  tbodyaccjerk-std-y tbodyaccjerk-std-z tbodygyro-mean-x tbodygyro-mean-y tbodygyro-mean-z tbodygyro-std-x
 		 -0.9241493         -0.9548551      -0.01655309      -0.06448612       0.14868944      -0.8735439
          -0.9813720         -0.9879108      -0.04535006      -0.09192415       0.06293138      -0.9772113
